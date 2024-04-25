@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+}
+
+
+/* Admin Dashboad CSS */
+
+#ad-dash {
+    background-color: brown;
+    border: 1px solid gray;
+    padding: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    margin: 0 6rem;
+    position: relative;
+}
+
+#ad-dash h1{
+    text-align: center;
+}
+#ad-dash h4 a{
+    text-decoration: none;
+    color: white;
+}
+
+#logout {
+    right: 1rem;
+    top: 1rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+#back {
+    left: 1rem;
+    top: 1rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+#logout:hover{
+    text-decoration: underline;
+}
+
+#back:hover{
+    text-decoration: underline;
+}
+
+#dash-table {
+    background-color: aquamarine;
+    border-radius: 7px;
+}
+
+#dash-table a {
+    text-decoration: none;
+    color: blueviolet;
+    cursor: pointer;
+}
+#dash-table tr td{
+    border-bottom: 1px solid gray;
+    /* border-left: 1px solid gray; */
+    border-radius: 11px;
+}
+
+#dash-table a:hover {
+    text-decoration: underline;
+}
+
+/* Update Admin CSS */
+
+#update-student{
+    margin: 2rem auto;
+    /* border: 1px solid gray; */
+    text-align: center;
+}
+
+#update-student input[type="text"],input[type="number"]{
+    padding: 6px 4px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-bottom-left-radius: 4px;
+    background-color: transparent;
+    /* color: blueviolet;    */
+}
+
+#update-student{
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+/* Default CSS */
+
+h3 a {
+    text-decoration: none;
+    color: #114c6294;
+    cursor: pointer;
+}
+
+#login-heading{
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
+#index-heading {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 30%;
+    /* border: 2px solid red; */
+    margin: 1rem auto;
+    padding: 10px;
+}
+
+td {
+    padding: 10px 2px;
+    font-weight: 700;
+}
+
+#sub-heading {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: underline;
+    background-color: aquamarine;
+    padding: 6px 8px 6px 0;
+}
+
+#submit {
+    background-color: green;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 7px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: azure;
+    color: green;
+    border: 1px solid green;
+}
+
+#dlt{
+    background-color: red;
+    border: none;
+    color: azure;
+    border-radius: 5px;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#dlt:hover {
+    background-color: azure;
+    color: red;
+    border: 1px solid red;
+}
+
+table tr input {
+    padding: 6px 4px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    /* border-left: 1px solid gray; */
+    border-bottom-left-radius: 4px;
+}
